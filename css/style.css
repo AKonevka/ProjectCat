@@ -1,0 +1,138 @@
+.block {}
+
+.block1 {
+    display: inline-block;
+    border: 6px black solid;
+    position: absolute;
+    left: 20%;
+    bottom: 4%;
+
+
+}
+
+.blockx {
+    position: relative;
+    padding: 25px;
+}
+
+.blockx2 {
+    display: flex;
+
+    position: relative;
+    padding: 25px;
+}
+
+.block2 {
+    position: absolute;
+    bottom: 24%;
+    left: 11%;
+    border: 6px black solid;
+}
+
+.block3 {
+    border: 6px black solid;
+    position: absolute;
+    left: 76%;
+    bottom: 16%;
+}
+
+.blocky1 {
+    display: flex;
+    padding: 50px;
+    position: relative;
+}
+
+.blockx3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.block4 {
+    position: absolute;
+    left: 21%;
+    bottom: 77%;
+    border: 6px black solid;
+
+}
+
+.block5 {
+    position: absolute;
+    left: 13%;
+    bottom: 34%;
+    border: 6px black solid;
+}
+
+.block6 {
+    position: absolute;
+    left: 43%;
+    bottom: 15%;
+    border: 6px black solid;
+    padding: 13px;
+}
+
+.block7 {
+    position: absolute;
+    left: 79%;
+    bottom: 41%;
+    border: 6px black solid;
+}
+
+.blockx4 {
+    position: relative;
+    padding: 25px;
+}
+
+.block8 {
+    position: absolute;
+    left: 30%;
+    bottom: 15%;
+    border: 6px black solid;
+
+}
+
+.block9 {
+    position: absolute;
+    left: 14%;
+    bottom: 41%;
+    border: 6px black solid;
+
+}
+
+.block10 {
+    position: absolute;
+    left: 65%;
+    bottom: 41%;
+    border: 6px black solid;
+}
+
+.block11 {
+    position: absolute;
+    left: 56%;
+    bottom: 41%;
+    border: 6px black solid;
+}
+
+.block12 {
+    position: absolute;
+    left: 32%;
+    bottom: 11%;
+
+    border: 6px black solid;
+}
+
+.block13 {
+    position: absolute;
+    left: 27%;
+    top: 1%;
+
+    border: 6px black solid;
+}
+
+.block14 {
+    position: absolute;
+    left: 42%;
+    width: 28%;
+    top: 4%;
+
+    border: 6px black solid;
+}
