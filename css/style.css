@@ -1,11 +1,25 @@
-.block {}
+.wrapper {
+    background-color: black;
+    height: 100%;
+}
+
+body {
+    height: 100vh;
+}
+
+.block {
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+
+
+}
 
 .block1 {
-    display: inline-block;
-    border: 6px black solid;
     position: absolute;
     left: 20%;
-    bottom: 4%;
+    bottom: -20%;
 
 
 }
@@ -26,11 +40,9 @@
     position: absolute;
     bottom: 24%;
     left: 11%;
-    border: 6px black solid;
 }
 
 .block3 {
-    border: 6px black solid;
     position: absolute;
     left: 76%;
     bottom: 16%;
@@ -51,7 +63,6 @@
     position: absolute;
     left: 21%;
     bottom: 77%;
-    border: 6px black solid;
 
 }
 
@@ -59,14 +70,12 @@
     position: absolute;
     left: 13%;
     bottom: 34%;
-    border: 6px black solid;
 }
 
 .block6 {
     position: absolute;
     left: 43%;
     bottom: 15%;
-    border: 6px black solid;
     padding: 13px;
 }
 
@@ -74,7 +83,6 @@
     position: absolute;
     left: 79%;
     bottom: 41%;
-    border: 6px black solid;
 }
 
 .blockx4 {
@@ -86,7 +94,6 @@
     position: absolute;
     left: 30%;
     bottom: 15%;
-    border: 6px black solid;
 
 }
 
@@ -94,7 +101,6 @@
     position: absolute;
     left: 14%;
     bottom: 41%;
-    border: 6px black solid;
 
 }
 
@@ -102,14 +108,12 @@
     position: absolute;
     left: 65%;
     bottom: 41%;
-    border: 6px black solid;
 }
 
 .block11 {
     position: absolute;
     left: 56%;
     bottom: 41%;
-    border: 6px black solid;
 }
 
 .block12 {
@@ -117,7 +121,6 @@
     left: 32%;
     bottom: 11%;
 
-    border: 6px black solid;
 }
 
 .block13 {
@@ -125,7 +128,6 @@
     left: 27%;
     top: 1%;
 
-    border: 6px black solid;
 }
 
 .block14 {
@@ -134,5 +136,10 @@
     width: 28%;
     top: 4%;
 
-    border: 6px black solid;
+}
+
+.img {
+    border-radius: 10px;
+    width: 40px;
+
 }
