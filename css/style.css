@@ -1,6 +1,7 @@
 .wrapper {
     background-color: black;
     height: 100%;
+
 }
 
 body {
@@ -8,6 +9,17 @@ body {
 }
 
 .block {
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+}
+
+.blocke {
     border-radius: 10px;
     color: white;
     display: flex;
@@ -160,6 +172,7 @@ body {
     border-radius: 25px;
     width: 50px;
     margin-right: 9px;
+    transition: transform 3s;
 
 }
 
@@ -171,4 +184,23 @@ body {
 
 .img1 {
     width: 369px;
+}
+
+.animated {
+    transition-property: transform;
+    transform: translate(3px, 4px);
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.spin {
+    animation: spin 4s linear infinite;
 }
