@@ -169,6 +169,14 @@ body {
 
 }
 
+.block15 {
+    position: absolute;
+    left: 13%;
+    top: 149%;
+    font-size: 20px;
+
+}
+
 .img {
     border-radius: 25px;
     width: 50px;
@@ -267,5 +275,10 @@ body {
         font-size: 12px;
         width: 48%;
         left: 33%;
+    }
+
+    .block15 {
+        left: 2%;
+        top: 85%;
     }
 }
