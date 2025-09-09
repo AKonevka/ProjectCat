@@ -6,6 +6,7 @@
 
 body {
     height: 100vh;
+    width: 100vw;
 }
 
 .block {
@@ -202,5 +203,32 @@ body {
 }
 
 .spin {
-    animation: spin 4s linear infinite;
+    animation: spin 3s linear infinite;
+}
+
+@media (max-width: 425px) {
+    .img1 {
+        width: 100px;
+    }
+
+    .img {
+        width: 20px;
+    }
+
+    .block {
+        font-size: 10px;
+    }
+
+    .blocky2 {
+        font-size: 10px;
+    }
+
+    .block7 {
+        left: 65%;
+        bottom: -9%;
+    }
+
+    .block3 {
+        left: 54%;
+    }
 }
