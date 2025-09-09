@@ -5,6 +5,7 @@ block.array;
 console.log(Array.from(block));
 block = Array.from(block);
 console.log(typeof block1);
+let spin = 3;
 
 block.forEach(element => {
     element.addEventListener('mouseover', function (e) {
@@ -14,6 +15,13 @@ block.forEach(element => {
     element.addEventListener('mouseout', function (e) {
         const img = element.querySelector('img');
         img.classList.remove('spin');
+        spin = 3;
+        img.style.setProperty('--rotation-duration', `${spin}s`);
     })
+    element.addEventListener('click', function (e) {
+        spin = Math.max(0.1, spin * 0.5);
+        const img = element.querySelector('img');
+        img.style.setProperty('--rotation-duration', `${spin}s`);
+    });
 
 })

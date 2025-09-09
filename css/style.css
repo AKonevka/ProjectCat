@@ -211,8 +211,8 @@ body {
 }
 
 .spin {
-    animation: spin 3s linear infinite;
-    -webkit-animation: spin 3s linear infinite;
+    --rotation-duration: 3s;
+    animation: spin var(--rotation-duration) linear infinite;
 }
 
 @media (max-width: 425px) {
