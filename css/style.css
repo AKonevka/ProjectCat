@@ -210,9 +210,24 @@ body {
     }
 }
 
+@keyframes spinx {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
 .spin {
     --rotation-duration: 3s;
     animation: spin var(--rotation-duration) linear infinite;
+}
+
+.spinx {
+    --rotation-duration: 3s;
+    animation: spinx var(--rotation-duration) linear infinite;
 }
 
 @media (max-width: 425px) {
