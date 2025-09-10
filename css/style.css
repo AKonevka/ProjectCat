@@ -200,6 +200,19 @@ body {
     transform: translate(3px, 4px);
 }
 
+.text {
+    position: absolute;
+    left: 42%;
+    top: 317%;
+    font-size: 50px;
+    z-index: 1;
+    color: rgb(10, 10, 15);
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+}
+
 @keyframes spin {
     from {
         transform: rotate(0deg);
@@ -295,5 +308,13 @@ body {
     .block15 {
         left: 2%;
         top: 85%;
+    }
+
+    .text {
+        font-size: 15px;
+        top: 378%;
+        left: 48%;
+
+
     }
 }
